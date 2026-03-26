@@ -1,3 +1,18 @@
 site_name: Applied Rocketry Documentation
+site_url: "" # Add your GitHub Pages URL here later
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Safety & Regulations:
+    - SA Safety Code: safety-standards/nar-localized.md
+    - SACAA Rules: safety-standards/sacaa-regulations.md
+    - Explosives Act: safety-standards/explosives-act.md
+  - How-To Guides:
+    - First Launch: how-to-guides/first-launch.md
+    - Assembly Basics: how-to-guides/assembly-basics.md
